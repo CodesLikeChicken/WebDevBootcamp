@@ -4,22 +4,27 @@ ol {
   list-style-position: inside;
 }
 
+/* Selector for an element */
 p {
   color: red;
 }
 
+/* Class selector */
 .note {
   font-size: 20px ;
 }
 
+/* id selector */
 #id-selector-demo {
   color: green;
 }
 
+/* Attribute selector */
 li[value="4"] {
   color: blue;
 }
 
+/* Universal selector */
 * {
   text-align: center;
 }
